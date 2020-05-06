@@ -6,4 +6,4 @@ ports:
     onOpen: open-preview
 tasks:
   - init: pip3 install -r requi.txt
-    command: python3 flappy_bird.py
+    command: python3 Flappy-Bird-NN.py
