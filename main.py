@@ -186,7 +186,7 @@ def main(genomes,config):
         ge.append(g)
 
     base= Base(730)
-    pipes = [Pipe(600)]
+    pipes = [Pipe(700)]
     win=pygame.display.set_mode((WIDTH,HEIGHT))
     clock=pygame.time.Clock()
 
@@ -218,6 +218,7 @@ def main(genomes,config):
 
             if output[0] > 0.5:
                 bird.jump()
+
 
         add_pipe= False
         remove=[]
