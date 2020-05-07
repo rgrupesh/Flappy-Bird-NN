@@ -1,4 +1,12 @@
 
+
+This Project uses neural-network & genetic algorithm for bird's brain.
+![](imgs/nn.png)
+
+
+
+
+   
 ![](imgs/Screenshot.png)
 
 
