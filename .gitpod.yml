@@ -1,5 +1,10 @@
-tasks:
-  - init: echo "Replace me with a build script for the project."
-    command: echo "Replace me with something that should run on every start, or just
-      remove me entirely."
+  
 image: gitpod/workspace-full-vnc
+ports:
+  - port: 5900
+    onOpen: ignore
+  - port: 6080
+    onOpen: open-preview
+tasks:
+  - init: pip3 install -r requi.txt
+    command: python3 Flappy-Bird-NN.py
